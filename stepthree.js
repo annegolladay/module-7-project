@@ -19,3 +19,4 @@ function findLongestWord(word) {
 }
 console.log(findLongestWord('hi, hello'))
 
+//I believe the runtime for this function would be O(n) - linear time because of the input of the words or strings can be any number of words, there is no limit to the amount that could go in. There is also a for loop with a .length so the loop needs to loops through all of the words/strings that we are inputting. It is not constant or consistent but is clearly linear runtime. 
